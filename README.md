@@ -2,7 +2,7 @@
 
 FlowCraft is a sleek, responsive, and modular web interface built and customized with love and precision, FlowCraft serves as my personal experimentation ground for UI design, web components, and hands-on Git collaboration.
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/https://codesandbox.io/p/github/pmanocha07/FlowCraft/main)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/pmanocha07/FlowCraft/main)
 
 ## 🚀 Features
 - Clean, customizable UI
