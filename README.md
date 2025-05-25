@@ -1,6 +1,6 @@
 # FlowCraft 🛠️
 
-FlowCraft is a sleek, responsive, and modular web interface inspired by [recursing-elion](https://github.com/AmanBisht001/recursing-elion). Rebuilt and customized with love and precision, FlowCraft serves as my personal experimentation ground for UI design, web components, and hands-on Git collaboration.
+FlowCraft is a sleek, responsive, and modular web interface built and customized with love and precision, FlowCraft serves as my personal experimentation ground for UI design, web components, and hands-on Git collaboration.
 
 ## 🚀 Features
 - Clean, customizable UI
