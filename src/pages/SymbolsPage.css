@@ -1,0 +1,103 @@
+/* src/pages/SymbolsPage.css */
+.symbols-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+  
+  .symbols-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .symbols-header h1 {
+    color: var(--text-primary);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .symbols-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+  }
+  
+  .symbols-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .symbol-card {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .symbol-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .symbol-image-container {
+    height: 200px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .symbol-image {
+    max-width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  }
+  
+  .symbol-info {
+    padding: 1.5rem;
+    background: var(--bg-primary);
+  }
+  
+  .symbol-name {
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+  
+  .symbol-description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Dark mode adjustments */
+  [data-theme="dark"] .symbol-image-container {
+    background: #2d2d2d;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .symbols-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .symbols-header h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .symbols-page {
+      padding: 1rem;
+    }
+    
+    .symbol-image-container {
+      height: 160px;
+    }
+  }

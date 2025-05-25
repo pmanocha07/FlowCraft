@@ -1,0 +1,69 @@
+.node-container {
+  position: absolute;
+  cursor: move;
+  user-select: none;
+  z-index: 2;
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.node-input {
+  background: transparent;
+  border: none;
+  color: inherit;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  font-size: inherit;
+}
+
+.start-node {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--accent);
+}
+
+.end-node {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  border: 3px solid var(--accent);
+  color: var(--accent);
+}
+
+.process-node {
+  min-width: 100px;
+  min-height: 40px;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: var(--accent);
+}
+
+.decision-node {
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  background-color: var(--accent);
+}
+
+.decision-content {
+  transform: rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dragging {
+  opacity: 0.5;
+}

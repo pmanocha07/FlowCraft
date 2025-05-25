@@ -1,0 +1,23 @@
+.flow-canvas {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+  background-image: linear-gradient(#2d2a54 1px, transparent 1px),
+    linear-gradient(90deg, #2d2a54 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.nodes-container {
+  position: absolute;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease;
+}
+
+.edges-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

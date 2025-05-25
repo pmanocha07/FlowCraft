@@ -1,0 +1,22 @@
+:root {
+  --bg-primary: #232140;
+  --bg-secondary: #2d2a54;
+  --bg-tertiary: #3a3759;
+
+  --text-primary: #f8f9fa;
+  --text-secondary: #adb5bd;
+  --text-tertiary: #6c757d;
+
+  --accent: #6c5ce7;
+  --accent-light: #7d6df1;
+  --accent-dark: #5a4bd1;
+
+  --success: #28a745;
+  --warning: #ffc107;
+  --error: #dc3545;
+
+  --border-radius: 6px;
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  --transition: all 0.2s ease;
+}

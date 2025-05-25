@@ -1,0 +1,12 @@
+{
+  "name": "Quick Start",
+  "nodes": [
+    { "id": "1", "type": "start", "x": 100, "y": 100, "text": "Begin" },
+    { "id": "2", "type": "process", "x": 100, "y": 200, "text": "Step 1" },
+    { "id": "3", "type": "end", "x": 100, "y": 300, "text": "Done" }
+  ],
+  "edges": [
+    { "from": "1", "to": "2" },
+    { "from": "2", "to": "3" }
+  ]
+}

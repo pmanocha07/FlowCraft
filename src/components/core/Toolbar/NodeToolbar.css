@@ -1,0 +1,46 @@
+.node-toolbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+  background-color: var(--bg-secondary);
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tool-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: grab;
+  font-weight: 500;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.tool-button:hover {
+  transform: translateY(-2px);
+}
+
+.start-button {
+  background-color: #6c5ce7;
+}
+
+.process-button {
+  background-color: #6c5ce7;
+}
+
+.decision-button {
+  background-color: #6c5ce7;
+}
+
+.end-button {
+  background-color: #6c5ce7;
+}
+
+.dragging {
+  opacity: 0.5;
+}
